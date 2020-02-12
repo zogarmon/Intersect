@@ -1,0 +1,65 @@
+﻿2020-02-12 15:16:02.077 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:02.089 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+  Message: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Server\Classes\Networking\Helpers\UPnP.cs:line 24
+
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.660 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.660 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.660 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.662 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.664 [Info] Saving player database... (2ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.667 [Info] Saving game database... (6ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.668 [Info] Shutting down the API... (6ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:55.668 [Info] Shutting down the console thread... (7ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:56.672 [Info] Base dispose. (1011ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:56.672 [Info] Finished disposing server context. (1011ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:56.673 [Info] GC.SuppressFinalize (1013ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:56.673 [Info] InternalDispose() completed. (1013ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:56.673 [Info] Clearing instance... (1014ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:56.673 [Info] Releasing context lock... (1014ms)
+
+--------------------------------------------------------------------------------
+2020-02-12 15:16:56.673 [Info] Released. (1014ms)
+
+--------------------------------------------------------------------------------

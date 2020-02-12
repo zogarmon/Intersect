@@ -1,0 +1,145 @@
+{
+  "GameName": "Intersect",
+  "ServerPort": 5400,
+  "AdminOnly": false,
+  "BlockClientRegistrations": false,
+  "UPnP": true,
+  "Player": {
+    "MaxStat": 255,
+    "MaxLevel": 100,
+    "MaxInventory": 35,
+    "MaxSpells": 35,
+    "MaxBank": 100,
+    "MaxCharacters": 1,
+    "ItemDropChance": 0,
+    "RequestTimeout": 300000
+  },
+  "Chat": {
+    "MaxChatLength": 120,
+    "MinIntervalBetweenChats": 400
+  },
+  "Equipment": {
+    "WeaponSlot": 2,
+    "ShieldSlot": 3,
+    "Slots": [
+      "Helmet",
+      "Armor",
+      "Weapon",
+      "Shield",
+      "Boots"
+    ],
+    "Paperdoll": {
+      "Up": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ],
+      "Down": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ],
+      "Left": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ],
+      "Right": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ]
+    },
+    "ToolTypes": [
+      "Axe",
+      "Pickaxe",
+      "Shovel",
+      "Fishing Rod"
+    ]
+  },
+  "AnimatedSprites": [],
+  "Combat": {
+    "RegenTime": 3000,
+    "MinAttackRate": 500,
+    "MaxAttackRate": 200,
+    "BlockingSlow": 30,
+    "MaxDashSpeed": 200
+  },
+  "Map": {
+    "GameBorderStyle": 0,
+    "ItemSpawnTime": 15000,
+    "ItemDespawnTime": 15000,
+    "ZDimensionVisible": false,
+    "Width": 32,
+    "Height": 26,
+    "TileWidth": 32,
+    "TileHeight": 32
+  },
+  "EventWatchdogKillThreshold": 5000,
+  "ValidPasswordResetTimeMinutes": 30,
+  "Security": {
+    "PacketFlooding": {
+      "FloodThreshholds": {
+        "MaxPacketSize": 10240,
+        "MaxPacketPerSec": 5,
+        "KickAvgPacketPerSec": 3
+      },
+      "EditorFloodThreshholds": {
+        "MaxPacketSize": 2147483647,
+        "MaxPacketPerSec": 2147483647,
+        "KickAvgPacketPerSec": 2147483647
+      },
+      "PlayerFloodThreshholds": {
+        "MaxPacketSize": 10240,
+        "MaxPacketPerSec": 30,
+        "KickAvgPacketPerSec": 20
+      }
+    },
+    "IpBlacklist": []
+  },
+  "SmtpSettings": {
+    "FromAddress": "",
+    "FromName": "",
+    "Host": "",
+    "Port": 587,
+    "UseSsl": true,
+    "Username": "",
+    "Password": ""
+  },
+  "PlayerDatabase": {
+    "Type": "sqlite",
+    "Server": "localhost",
+    "Port": 3306,
+    "Database": "",
+    "Username": "",
+    "Password": "",
+    "LogLevel": "Error"
+  },
+  "GameDatabase": {
+    "Type": "sqlite",
+    "Server": "localhost",
+    "Port": 3306,
+    "Database": "",
+    "Username": "",
+    "Password": "",
+    "LogLevel": "Error"
+  },
+  "Passability": {
+    "Normal": false,
+    "Safe": true,
+    "Arena": false
+  },
+  "OpenPortChecker": true
+}

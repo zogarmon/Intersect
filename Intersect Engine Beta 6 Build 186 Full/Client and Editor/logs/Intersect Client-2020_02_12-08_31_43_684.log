@@ -1,0 +1,29 @@
+﻿2020-02-12 08:31:43.706 [Warn] 
+  Message: Missing configuration file.
+    Stack:    at Intersect.Configuration.ConfigurationHelper.Load[T](T configuration, String filePath, Boolean failQuietly) in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect (Core)\Configuration\ConfigurationHelper.cs:line 18
+   at Intersect.Configuration.ClientConfiguration.Load(String filePath, Boolean failQuietly) in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect (Core)\Configuration\ClientConfiguration.cs:line 115
+   at Intersect.Configuration.ConfigurationHelper.LoadSafely[T](T configuration, String filePath) in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect (Core)\Configuration\ConfigurationHelper.cs:line 77
+
+
+--------------------------------------------------------------------------------
+2020-02-12 08:31:45.141 [Info] Connecting to localhost:5400...
+
+--------------------------------------------------------------------------------
+2020-02-12 08:31:45.619 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-02-12 08:31:45.634 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-02-12 08:31:45.635 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-02-12 08:32:37.698 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2020-02-12 08:32:49.322 [Debug] StatusChanged: [NetIncomingMessage #58 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2020-02-12 08:32:49.329 [Debug] StatusChanged: [NetIncomingMessage #59 11 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
