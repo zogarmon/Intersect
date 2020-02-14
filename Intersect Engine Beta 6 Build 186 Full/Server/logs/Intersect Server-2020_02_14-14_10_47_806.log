@@ -1,0 +1,80 @@
+﻿2020-02-14 14:10:47.862 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2020-02-14 14:10:47.879 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+2020-02-14 14:10:52.590 [Info] Connection approved [6d607554-ad65-4028-8dda-5cc861c11481].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:10:52.602 [Debug] Connection established to remote [6d607554-ad65-4028-8dda-5cc861c11481/127.0.0.1:59235].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:10:52.602 [Info] Connected [6d607554-ad65-4028-8dda-5cc861c11481].
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+  Message: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Server\Classes\Networking\Helpers\UPnP.cs:line 24
+
+
+--------------------------------------------------------------------------------
+2020-02-14 14:11:01.687 [Debug] Took 34ms to send game data to client!
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:32.375 [Debug] StatusChanged: [NetIncomingMessage #505 11 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:32.375 [Debug] Connectioned terminated to remote [6d607554-ad65-4028-8dda-5cc861c11481/127.0.0.1:59235].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:32.375 [Info] Disconnected [6d607554-ad65-4028-8dda-5cc861c11481].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:32.376 [Debug] Client disconnected (AEON->AEON)
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:36.279 [Info] Connection approved [3cf26823-83fa-4c82-9977-4cfba191f5ab].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:36.284 [Debug] Connection established to remote [3cf26823-83fa-4c82-9977-4cfba191f5ab/127.0.0.1:54645].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:36.284 [Info] Connected [3cf26823-83fa-4c82-9977-4cfba191f5ab].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:19:37.023 [Debug] Took 5ms to load player from db!
+
+--------------------------------------------------------------------------------
+2020-02-14 14:25:02.564 [Info] Connection approved [8eabecd4-7219-450c-a949-6d5e33b4ffc6].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:25:02.583 [Debug] Connection established to remote [8eabecd4-7219-450c-a949-6d5e33b4ffc6/127.0.0.1:61630].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:25:02.583 [Info] Connected [8eabecd4-7219-450c-a949-6d5e33b4ffc6].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:25:05.840 [Debug] Took 0ms to send game data to client!
+
+--------------------------------------------------------------------------------
+2020-02-14 14:26:08.374 [Debug] StatusChanged: [NetIncomingMessage #227 11 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-02-14 14:26:08.374 [Debug] Connectioned terminated to remote [8eabecd4-7219-450c-a949-6d5e33b4ffc6/127.0.0.1:61630].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:26:08.374 [Info] Disconnected [8eabecd4-7219-450c-a949-6d5e33b4ffc6].
+
+--------------------------------------------------------------------------------
+2020-02-14 14:26:08.374 [Debug] Client disconnected (AEON->AEON)
+
+--------------------------------------------------------------------------------
