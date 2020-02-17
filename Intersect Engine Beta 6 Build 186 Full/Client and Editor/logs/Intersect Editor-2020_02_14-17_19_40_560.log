@@ -1,0 +1,30 @@
+﻿2020-02-14 17:19:42.194 [Info] Connecting to localhost:5400...
+
+--------------------------------------------------------------------------------
+2020-02-14 17:19:42.912 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-02-14 17:19:42.919 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-02-14 17:19:42.919 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-02-14 17:23:06.062 [Error] JC's Solution for UpdateMaps collection was modified bug did not work!
+2020-02-14 17:23:06.062 [Error] 
+  Message: Object reference not set to an instance of an object.
+    Stack:    at Intersect.Editor.EditorGraphics.ScreenShotMap() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorGraphics.cs:line 1165
+   at Intersect.Editor.Maps.MapInstance.Update() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Maps\MapInstance.cs:line 184
+   at Intersect.Editor.EditorLoop.UpdateMaps() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorLoop.cs:line 128
+
+
+--------------------------------------------------------------------------------
+2020-02-14 18:44:14.815 [Debug] StatusChanged: [NetIncomingMessage #618 11 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-02-14 18:44:14.815 [Debug] Connectioned terminated to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-02-14 18:44:14.815 [Info] Disconnected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
