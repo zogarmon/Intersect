@@ -1,0 +1,33 @@
+﻿2020-02-18 14:07:12.169 [Info] Connecting to localhost:5400...
+
+--------------------------------------------------------------------------------
+2020-02-18 14:07:12.845 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-02-18 14:07:12.860 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-02-18 14:07:12.860 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-02-18 14:14:40.061 [Debug] 
+  Message: Cannot access a disposed object.
+Object name: 'FrmItem'.
+    Stack:    at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at Intersect.Editor.Forms.Editors.EditorForm.<ApplyHooks>b__3_0(GameObjectType type) in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Forms\Editors\EditorForm.cs:line 28
+
+
+--------------------------------------------------------------------------------
+2020-02-18 14:23:11.275 [Debug] StatusChanged: [NetIncomingMessage #516 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2020-02-18 14:23:11.279 [Debug] StatusChanged: [NetIncomingMessage #504 10 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-02-18 14:23:11.279 [Debug] Connectioned terminated to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-02-18 14:23:11.280 [Info] Disconnected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------

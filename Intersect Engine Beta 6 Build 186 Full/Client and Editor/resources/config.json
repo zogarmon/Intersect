@@ -4,7 +4,7 @@
   "GameFont": "sourcesansproblack",
   "UIFont": "sourcesanspro",
   "ChatLines": 100,
-  "MenuMusic": "RPG-Theme_v001_Looping.ogg",
+  "MenuMusic": "Menu-Music.ogg",
   "MenuBackground": "background.png",
   "IntroImages": []
 }
