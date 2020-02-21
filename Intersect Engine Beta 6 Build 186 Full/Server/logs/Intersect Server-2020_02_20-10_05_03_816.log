@@ -1,0 +1,86 @@
+﻿2020-02-20 10:05:03.872 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:03.888 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:09.178 [Info] Connection approved [c83f3edd-3932-48c2-bb8b-5bfb955a842b].
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:09.192 [Debug] Connection established to remote [c83f3edd-3932-48c2-bb8b-5bfb955a842b/127.0.0.1:55154].
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:09.192 [Info] Connected [c83f3edd-3932-48c2-bb8b-5bfb955a842b].
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:10.102 [Debug] Took 500ms to load player from db!
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+  Message: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Server\Classes\Networking\Helpers\UPnP.cs:line 24
+
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:46.355 [Debug] StatusChanged: [NetIncomingMessage #11 10 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:46.356 [Debug] Connectioned terminated to remote [c83f3edd-3932-48c2-bb8b-5bfb955a842b/127.0.0.1:55154].
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:46.356 [Info] Disconnected [c83f3edd-3932-48c2-bb8b-5bfb955a842b].
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:46.357 [Debug] Client disconnected (AEON->[editor])
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.606 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.606 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.606 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.608 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.609 [Info] Saving player database... (2ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.614 [Info] Saving game database... (7ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.620 [Info] Shutting down the API... (12ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.620 [Info] Base dispose. (13ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.620 [Info] Finished disposing server context. (13ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.621 [Info] GC.SuppressFinalize (14ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.621 [Info] InternalDispose() completed. (14ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.621 [Info] Clearing instance... (14ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.621 [Info] Releasing context lock... (15ms)
+
+--------------------------------------------------------------------------------
+2020-02-20 10:05:49.621 [Info] Released. (15ms)
+
+--------------------------------------------------------------------------------
