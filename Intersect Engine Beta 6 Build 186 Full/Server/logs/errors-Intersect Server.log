@@ -366,3 +366,8 @@ UPnP Service Initialization Failed. You might not have a router, or UPnP on your
 
 
 --------------------------------------------------------------------------------
+2020-02-21 17:19:42.174 [Error] Received unhandled exception from Name:Intersect Server.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
