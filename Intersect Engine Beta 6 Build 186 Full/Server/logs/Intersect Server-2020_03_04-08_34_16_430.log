@@ -1,0 +1,80 @@
+﻿2020-03-04 08:34:16.470 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2020-03-04 08:34:16.481 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+2020-03-04 08:34:22.349 [Info] Connection approved [6b8b0a8a-7a9d-40cb-9e7e-814052a74e2e].
+
+--------------------------------------------------------------------------------
+2020-03-04 08:34:22.374 [Debug] Connection established to remote [6b8b0a8a-7a9d-40cb-9e7e-814052a74e2e/127.0.0.1:65257].
+
+--------------------------------------------------------------------------------
+2020-03-04 08:34:22.374 [Info] Connected [6b8b0a8a-7a9d-40cb-9e7e-814052a74e2e].
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+  Message: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Server\Classes\Networking\Helpers\UPnP.cs:line 24
+
+
+--------------------------------------------------------------------------------
+2020-03-04 08:34:28.393 [Debug] Took 478ms to load player from db!
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.354 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.354 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.355 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.357 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.358 [Debug] StatusChanged: [NetIncomingMessage #142 11 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.359 [Info] Saving player database... (3ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.364 [Info] Saving game database... (8ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.364 [Debug] StatusChanged: [NetIncomingMessage #143 11 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.373 [Info] Shutting down the API... (17ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.374 [Info] Base dispose. (18ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.374 [Info] Finished disposing server context. (18ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.374 [Info] GC.SuppressFinalize (19ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.374 [Info] InternalDispose() completed. (19ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.374 [Info] Clearing instance... (20ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.374 [Info] Releasing context lock... (20ms)
+
+--------------------------------------------------------------------------------
+2020-03-04 08:54:27.374 [Info] Released. (20ms)
+
+--------------------------------------------------------------------------------
