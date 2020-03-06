@@ -1,0 +1,44 @@
+﻿2020-03-06 13:16:50.695 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2020-03-06 13:16:50.705 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+2020-03-06 13:16:58.379 [Info] Connection approved [fabee22b-5758-40d2-8763-0b17c52996fe].
+
+--------------------------------------------------------------------------------
+2020-03-06 13:16:58.400 [Debug] Connection established to remote [fabee22b-5758-40d2-8763-0b17c52996fe/127.0.0.1:62157].
+
+--------------------------------------------------------------------------------
+2020-03-06 13:16:58.400 [Info] Connected [fabee22b-5758-40d2-8763-0b17c52996fe].
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+  Message: Exception of type 'Open.Nat.NatDeviceNotFoundException' was thrown.
+    Stack:    at Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Server\Classes\Networking\Helpers\UPnP.cs:line 24
+
+
+--------------------------------------------------------------------------------
+2020-03-06 13:18:52.056 [Debug] Took 466ms to load player from db!
+
+--------------------------------------------------------------------------------
+2020-03-06 15:35:22.559 [Debug] StatusChanged: [NetIncomingMessage #265 10 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-03-06 15:35:22.559 [Debug] Connectioned terminated to remote [fabee22b-5758-40d2-8763-0b17c52996fe/127.0.0.1:62157].
+
+--------------------------------------------------------------------------------
+2020-03-06 15:35:22.560 [Info] Disconnected [fabee22b-5758-40d2-8763-0b17c52996fe].
+
+--------------------------------------------------------------------------------
+2020-03-06 15:35:22.562 [Debug] Client disconnected (AEON->[editor])
+
+--------------------------------------------------------------------------------
