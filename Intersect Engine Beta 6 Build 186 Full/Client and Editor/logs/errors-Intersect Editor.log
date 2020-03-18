@@ -61,3 +61,24 @@
 
 
 --------------------------------------------------------------------------------
+2020-03-10 14:02:11.974 [Error] 
+  Message: Index was outside the bounds of the array.
+    Stack:    at Intersect.Models.DatabaseObject`1.IdFromList(Int32 listIndex) in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect (Core)\Models\DatabaseObject.cs:line 52
+   at Intersect.Editor.Forms.DockingElements.FrmMapLayers.PlaceAttribute(MapBase tmpMap, Int32 x, Int32 y) in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Forms\DockingElements\frmMapLayers.cs:line 493
+   at Intersect.Editor.EditorGraphics.DrawMap(MapInstance map, Int32 gridX, Int32 gridY, Boolean screenShotting, Int32 layer, RenderTarget2D renderTarget2D) in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorGraphics.cs:line 465
+   at Intersect.Editor.EditorGraphics.Render() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorGraphics.cs:line 204
+   at Intersect.Editor.EditorLoop.DrawFrame() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorLoop.cs:line 55
+   at Intersect.Editor.EditorLoop.RunFrame() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorLoop.cs:line 84
+   at Intersect.Editor.EditorLoop.StartLoop() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorLoop.cs:line 40
+
+
+--------------------------------------------------------------------------------
+2020-03-13 09:10:31.955 [Error] JC's Solution for UpdateMaps collection was modified bug did not work!
+2020-03-13 09:10:31.955 [Error] 
+  Message: Object reference not set to an instance of an object.
+    Stack:    at Intersect.Editor.EditorGraphics.ScreenShotMap() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorGraphics.cs:line 1148
+   at Intersect.Editor.Maps.MapInstance.Update() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Maps\MapInstance.cs:line 184
+   at Intersect.Editor.EditorLoop.UpdateMaps() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorLoop.cs:line 128
+
+
+--------------------------------------------------------------------------------

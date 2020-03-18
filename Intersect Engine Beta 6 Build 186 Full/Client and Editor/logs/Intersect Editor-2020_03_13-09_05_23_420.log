@@ -1,0 +1,33 @@
+﻿2020-03-13 09:05:24.481 [Info] Connecting to localhost:5400...
+
+--------------------------------------------------------------------------------
+2020-03-13 09:05:34.474 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-03-13 09:05:34.492 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-03-13 09:05:34.492 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-03-13 09:10:31.904 [Error] JC's Solution for UpdateMaps collection was modified bug did not work!
+2020-03-13 09:10:31.904 [Error] 
+  Message: Object reference not set to an instance of an object.
+    Stack:    at Intersect.Editor.EditorGraphics.ScreenShotMap() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorGraphics.cs:line 1148
+   at Intersect.Editor.Maps.MapInstance.Update() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Maps\MapInstance.cs:line 184
+   at Intersect.Editor.EditorLoop.UpdateMaps() in C:\TeamCity\buildAgent\work\6c64f60308be6068\Intersect.Editor\Classes\Core\EditorLoop.cs:line 128
+
+
+--------------------------------------------------------------------------------
+2020-03-13 09:14:22.165 [Debug] StatusChanged: [NetIncomingMessage #867 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2020-03-13 09:14:22.172 [Debug] StatusChanged: [NetIncomingMessage #869 10 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-03-13 09:14:22.172 [Debug] Connectioned terminated to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-03-13 09:14:22.172 [Info] Disconnected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
